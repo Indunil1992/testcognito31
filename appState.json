@@ -12,7 +12,7 @@
         "filePath": "testCognito31.js",
         "cursor": {
           "lineNumber": 3,
-          "column": 53
+          "column": 54
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -28,7 +28,16 @@
               "triggerType": "CustomMessage"
             }
           }
-        ]
+        ],
+        "testCases": {
+          "dfcf2366-bbbb-4c20-8a9e-5900bf73827a": {
+            "id": "dfcf2366-bbbb-4c20-8a9e-5900bf73827a",
+            "name": "Test event",
+            "functionId": "4ccdde43-08fa-4ba2-a175-1e0a19f22486",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
       }
     },
     "openFiles": [
@@ -324,7 +333,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1585654789698
+    "lastSave": 1585654976379
   },
   "VCS_STATE": {
     "provider": "GitHub",
